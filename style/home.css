@@ -2,3 +2,10 @@ header > .navbar{
     background-color: #243945;
     color: white;
 }
+#h{
+    background-color: white;
+    align-text:50px right;
+}
+.login{
+    background-color: rgb(48, 92, 92);
+}
