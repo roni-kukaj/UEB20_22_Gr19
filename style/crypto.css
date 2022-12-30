@@ -1,7 +1,29 @@
-header > .navbar{
+body{
     background-color: #243945;
-    color: white;
+}
+header > .navbar{
+    background-color: #E6C37A;
+    color: black;
     border-radius: 20px;
     margin: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.nav-link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container{
+    background-color: #E6C37A;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 2.5%;
+}
+#amount-result{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-group-item:hover{
+    background-color: #243945;
+    color: white;
+    font-weight: bold;
 }
