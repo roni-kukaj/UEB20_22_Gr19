@@ -3,6 +3,7 @@ header > .navbar{
     color: white;
     border-radius: 20px;
     margin: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 #h{
     background-color: white;
@@ -43,11 +44,14 @@ header > .navbar{
     padding-bottom: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-.center-wrapper{
-    margin: auto;
+.col>h3:hover{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
-.statistic{
-    float: left;
+.col>h5:hover{
+    color: white;
+    font-weight: bold;
 }
 ul li>u{
     color: #E6C37A;
@@ -59,4 +63,12 @@ ul li>u{
     margin-top: 30px;
     padding: 10px;
     padding-left: 8%;
+    padding-top: 20px;
+}
+.copyright-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 18px;
 }
