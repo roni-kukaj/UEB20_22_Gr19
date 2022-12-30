@@ -1,6 +1,8 @@
 header > .navbar{
     background-color: #243945;
     color: white;
+    border-radius: 20px;
+    margin: 5px;
 }
 #h{
     background-color: white;
@@ -8,4 +10,42 @@ header > .navbar{
 }
 .login{
     background-color: rgb(48, 92, 92);
+}
+.main-part{
+    top: 20px;
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../images/main_picture_opt_2.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: table;
+}
+#main-title{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: #243945;
+    font-size: 5vh;
+    font-family: Calibri;
+    font-weight: bold;
+}
+#main-subtitle{
+    text-align: center;
+    vertical-align: middle;
+    display: table-row;
+    font-size: 3vh;
+    font-family: Calibri;
+}
+#statistics-of-bank{
+    background-color: #E6C37A;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.center-wrapper{
+    margin: auto;
+}
+.statistic{
+    float: left;
 }
