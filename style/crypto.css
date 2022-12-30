@@ -27,3 +27,8 @@ header > .navbar{
     color: white;
     font-weight: bold;
 }
+.top-list-title{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
