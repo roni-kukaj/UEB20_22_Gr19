@@ -6,7 +6,14 @@ header > .navbar{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+.nav-link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+>>>>>>> 0c9e77aee6ebfe7cdd15a15d1ba9111c3ce22b61
 #h{
     background-color: white;
     align-text:50px right;
