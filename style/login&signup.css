@@ -1,6 +1,23 @@
+
 header > .navbar{
-    background-color: #243945;
-    color: white;
+  background-color: #243945;
+  color: white;
+  border-radius: 20px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.login  {
+  background-color: rgb(2, 64, 64);
+}
+
+.butoni{
+  cursor: pointer;
+}
+
+/*
+.form{
+border-radius: 20px;
 }
 #h{
     background-color: white;
@@ -10,9 +27,7 @@ header > .navbar{
 .login{
     background-color: rgb(48, 92, 92);
 }
-button:hover {
-    opacity:1;
-  }
+
   .label{
     text-align:left;
   }
@@ -20,3 +35,7 @@ button:hover {
     width: 200px;
     
   }
+*/
+ 
+
+  
