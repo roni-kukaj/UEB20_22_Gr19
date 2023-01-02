@@ -1,6 +1,18 @@
+
 header > .navbar{
-    background-color: #243945;
-    color: white;
+  background-color: #243945;
+  color: white;
+  border-radius: 20px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+
+/*
+.form{
+border-radius: 20px;
 }
 #h{
     background-color: white;
@@ -20,3 +32,7 @@ button:hover {
     width: 200px;
     
   }
+*/
+ 
+
+  
