@@ -9,3 +9,42 @@ header > .navbar{
     font-weight: bold;
     text-decoration: underline;
 }
+.dropdown_menu{
+    display: none;
+}
+.dropdown_menu ul{
+    list-style: none;
+}
+.dropdown_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.dropdown_menu ul li a:hover{
+    color: black;
+}
+.menu-drop ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    background-color: #243945;
+    margin-top: 5px;
+    margin-left: -15px;
+    z-index: 1;
+}
+.menu-drop ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    margin-left: -20px;
+}
+.menu-drop ul li:hover .dropdown_menu ul li{
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+}
+
+.bi_h2{
+    color: #243945;
+    margin-top: 30px;
+    margin-left: 20px;
+}
