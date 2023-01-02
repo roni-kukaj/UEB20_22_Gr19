@@ -16,3 +16,25 @@ header > .navbar{
   color: white;
   font-size: 30px;
 }
+
+.submit {
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button {
+    background-color: white;
+    color: black;
+    border: 2px solid #243945;
+  }
+  
+  .button:hover {
+    background-color: #243945;
+    color: white;
+  }
