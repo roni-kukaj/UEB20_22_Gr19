@@ -9,13 +9,7 @@ header > .navbar{
     font-weight: bold;
     text-decoration: underline;
 }
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #243945;
-  color: white;
-  font-size: 30px;
-}
+
 
 .submit {
     border: none;
