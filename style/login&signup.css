@@ -7,8 +7,13 @@ header > .navbar{
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+.login  {
+  background-color: rgb(2, 64, 64);
+}
 
-
+.butoni{
+  cursor: pointer;
+}
 
 /*
 .form{
@@ -22,9 +27,7 @@ border-radius: 20px;
 .login{
     background-color: rgb(48, 92, 92);
 }
-button:hover {
-    opacity:1;
-  }
+
   .label{
     text-align:left;
   }
