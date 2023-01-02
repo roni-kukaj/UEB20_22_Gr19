@@ -1,0 +1,41 @@
+body{
+    background-color: #243945;
+}
+.image1{
+    width: 700px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 15px 50px 30px 5px;
+    box-shadow: 10px 10px 5px black;
+}
+.paragraph1{
+    padding-top: 365px;
+    font-size: 30px;
+    font-family: Calibri;
+    color: #fff;
+}
+.image2{
+    width: 700px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 50px 15px 5px 30px;
+    box-shadow: -10px 10px 5px black;
+}
+.paragraph2{
+    padding-top: 365px;
+    padding-left: 255px;
+    font-size: 30px;
+    font-family: Calibri;
+    color: #fff;
+}
+.image3{
+    margin-right: 20px;
+    border-radius: 15px 50px 30px 5px;
+    box-shadow: 10px 10px 5px black;
+}
+.paragraph3{
+    padding-top: 750px;
+    font-size: 30px;
+    font-family: Calibri;
+    color: #fff;
+}
