@@ -10,6 +10,29 @@ header > .navbar{
     text-decoration: underline;
 }
 
+navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 .submit {
     border: none;
@@ -33,7 +56,7 @@ header > .navbar{
   }
 
   footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
