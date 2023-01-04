@@ -1,8 +1,9 @@
 body{
     background-color: rgb(73, 73, 41);
 }
+
 header > .navbar{
-    background-color: #E6C37A;
+    background-color: #243945;
     color: black;
     border-radius: 20px;
     margin: 5px;
