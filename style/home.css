@@ -5,15 +5,10 @@ header > .navbar{
     margin: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 .nav-link:hover{
     font-weight: bold;
     text-decoration:underline;
 }
->>>>>>> 0c9e77aee6ebfe7cdd15a15d1ba9111c3ce22b61
 #h{
     background-color: white;
     align-text:50px right;
@@ -81,4 +76,3 @@ ul li>u{
     padding: 10px 0;
     padding-top: 18px;
 }
->>>>>>> 80e39c9c03a35fb586d56081f780b2f90abb045a
