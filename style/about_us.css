@@ -43,8 +43,10 @@ header > .navbar{
     text-align: left;
 }
 
-.bi_h2{
-    color: #243945;
-    margin-top: 30px;
-    margin-left: 20px;
+.description_container{
+    background-color: #243945;
+    color: #fff;
+    margin-top: 275px;
+    font-family: Calibri;
 }
+
