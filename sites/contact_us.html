@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,6 +6,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="../style/contact_us.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../style/about_us.css">
     </head>
     <body>
         <header>
@@ -17,7 +19,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse menu-drop" id="navbarNavDropdown">
                         <ul class="navbar-nav me-auto">
                             <li class="nav-item">
                                 <a class="nav-link active link-light" aria-current="page" href="home.html">Home</a>
@@ -26,7 +28,16 @@
                                 <a class="nav-link link-light" href="crypto.html">Crypto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-light" href="about_us.html">About Us</a>
+                                <a class="nav-link link-light" href="about_us.html">About Us <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                                  </svg></a>
+                                <div class="dropdown_menu">
+                                    <ul>
+                                        <li><a href="basicinfo.html">Basic Informations</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="employment.html">Employment</a></li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link link-light" href="contact_us.html">Contact Us</a>
@@ -55,9 +66,9 @@
             <section>
             <div class="row">
                 <div class="section-header">
-                        <h2>Contact with us</h2>
+                        <h2>Contact us</h2>
                         <p>
-                            <i><u> In the form below you can leave a comment or review for us! Every thought of our clients matters to us!</u></i>
+                            <i><u> In the form below you can leave a comment or review for us! Every thought of our clients matters!</u></i>
                         </p>
                 </div>
             </div>
@@ -67,7 +78,7 @@
                         <div class="contact-info">
                             <div class="contact-form">
                                 <form id="contact-form">
-                                    <div class="input-box">
+                                    <div class="input-box ">
                                         <input type="text"
                                         required="true" placeholder="Full name">
                                     </div>
@@ -83,7 +94,7 @@
                                 </form>
                                 <br>
                                 <div class="submit">
-                                    <button class="submit button" type="submit" onclick="alert('Thank you for contacting us')">Submit</button>
+                                    <button class="btn btn-secondary" type="submit">Submit</button>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +108,7 @@
             <section>
                   <div class="section-header">
                           <h2>Working Hours</h2>
-                          <h3>08:00 AM - 16:00 PM</h3>
+                          <h3>08:00 - 16:00</h3>
                   </div>
                   <div class="adresa">
                     <div class="text">
@@ -110,7 +121,7 @@
                           <input class="form-check-input" type="radio" id="radio1" name="cmethod" value="phone" checked>
                           <label class="form-check-label" for="radio1">Phone</label>
                          </div>
-  
+
                         <div class="form-check mb-3">
                           <input class="form-check-input" type="radio" id="radio2" name="cmethod" value="mail">
                           <label class="form-check-label" for="radio2">Email</label>
@@ -127,9 +138,9 @@
             </div>
             </div>
         </form>
-            <section>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21731.7362212831!2d-55.76517898254629!3d47.08991440928087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b6d937117a6fdf3%3A0x3013eace34e25fab!2sGrand%20Bank%2C%20NL%2C%20Canada!5e0!3m2!1sen!2s!4v1672904281063!5m2!1sen!2s" width="100%" height="350" style="border:0; margon" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </section>
+            <section class="container-fluid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21731.7362212831!2d-55.76517898254629!3d47.08991440928087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b6d937117a6fdf3%3A0x3013eace34e25fab!2sGrand%20Bank%2C%20NL%2C%20Canada!5e0!3m2!1sen!2s!4v1672904281063!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
             <footer>
                 <div class="footer-content">
                     <ul class="socials">
