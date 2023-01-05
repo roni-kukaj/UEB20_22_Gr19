@@ -122,13 +122,24 @@
                 { crypto: "(ADA)", id: 9, rate: 4.07315024},
                 { crypto: "(MATIC)", id: 10, rate: 1.31427402},
             ];
-            var amount = document.getElementById("amount-in-usd").value;
-            var selectedCoin = document.getElementById("inputGroupSelect01").value;
-            let getRate = cryptoRates.filter(item => item.id == selectedCoin);
-            var rate = getRate.map(item => item.rate);
+            try{
+                document.getElementById("amount-result").style.color = "black";
+                var amount = document.getElementById("amount-in-usd").value;
+                var selectedCoin = document.getElementById("inputGroupSelect01").value;
+                let getRate = cryptoRates.filter(item => item.id == selectedCoin);
+                var rate = getRate.map(item => item.rate);
 
-            amount = amount * rate;
-            document.getElementById("amount-result").innerHTML = "Amount in Crypto: " + amount + " " + getRate.map(item => item.crypto);
+                if(isNaN(amount))
+                    throw new Error("Write numbers please!");
+
+                amount = amount * rate;
+                document.getElementById("amount-result").innerHTML = "Amount in Crypto: " + amount + " " + getRate.map(item => item.crypto);
+            }
+            catch(error){
+                document.getElementById("amount-result").innerHTML = error;
+                document.getElementById("amount-result").style.color = "red";
+
+            }
 
         }
     </script>
