@@ -1,8 +1,9 @@
 body{
-    background-color: #243945;
+    background-color: rgb(73, 73, 41);
 }
+
 header > .navbar{
-    background-color: #E6C37A;
+    background-color: #243945;
     color: black;
     border-radius: 20px;
     margin: 5px;
@@ -11,6 +12,7 @@ header > .navbar{
 .nav-link:hover{
     font-weight: bold;
     text-decoration: underline;
+    color:white;
 }
 .container{
     background-color: #E6C37A;
@@ -31,4 +33,7 @@ header > .navbar{
     font-weight: bold;
     text-align: center;
     color: black;
+}
+.nav-link{
+    color:white;
 }
