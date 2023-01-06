@@ -131,6 +131,10 @@
 
                 if(isNaN(amount))
                     throw new Error("Write numbers please!");
+                else if(amount < 0)
+                    throw new Error("Only positive numbers allowed!");
+                else if(!Number.isInteger(amount))
+                    throw new Error("Only write integers please!");
 
                 amount = amount * rate;
                 document.getElementById("amount-result").innerHTML = "Amount in Crypto: " + amount + " " + getRate.map(item => item.crypto);

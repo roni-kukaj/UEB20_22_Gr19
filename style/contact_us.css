@@ -9,7 +9,12 @@ header > .navbar{
     font-weight: bold;
     text-decoration: underline;
 }
-
+li>.dropdown-item{
+    color: white;
+}
+li>.dropdown-item:hover{
+    color:black;
+}
 navbar {
   background-color: #333;
   position: fixed;
@@ -49,7 +54,7 @@ navbar a:hover {
     color: black;
     border: 2px solid #243945;
   }
-  
+
   .button:hover {
     background-color: #243945;
     color: white;
@@ -69,7 +74,14 @@ navbar a:hover {
     padding-top: 40px;
     color: #fff;
   }
-
+#email_link{
+    text-decoration: none;
+    color:blue;
+    font-style: italic;
+}
+#email_link:hover{
+    color: #E6C37A;
+}
   .footer-content {
     display: flex;
     align-items: center;
@@ -136,4 +148,11 @@ navbar a:hover {
 
   .submit {
     margin-bottom: 25px;
+  }
+  .copyright-section{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      padding-top: 18px;
   }

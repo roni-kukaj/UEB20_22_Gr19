@@ -9,12 +9,11 @@ header > .navbar{
     font-weight: bold;
     text-decoration:underline;
 }
-#h{
-    background-color: white;
-    align-text:50px right;
+li>.dropdown-item{
+    color: white;
 }
-.login{
-    background-color: rgb(48, 92, 92);
+li>.dropdown-item:hover{
+    color:black;
 }
 .main-part{
     top: 20px;
