@@ -37,3 +37,6 @@ header > .navbar{
 .nav-link{
     color:white;
 }
+audio{
+    display:none;
+}

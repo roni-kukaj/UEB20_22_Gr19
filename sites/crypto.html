@@ -87,6 +87,10 @@
                     </div>
                     <input type="button" value="Calculate" class="btn btn-secondary" onclick="calculate()">
                     <h3 id="amount-result">Amount in Crypto: </h3>
+                    <br>
+                    <audio>
+                        <source src="../images/sounds/money_sound_short.mp3" type="audio/mpeg">
+                    </audio>
                 </form>
             </div>
             <div class="col-4">
@@ -124,9 +128,11 @@
             try{
                 document.getElementById("amount-result").style.color = "black";
                 var amount = document.getElementById("amount-in-usd").value;
+                amount = Number.parseInt(amount);
                 var selectedCoin = document.getElementById("inputGroupSelect01").value;
                 let getRate = cryptoRates.filter(item => item.id == selectedCoin);
                 var rate = getRate.map(item => item.rate);
+
 
                 if(isNaN(amount))
                     throw new Error("Write numbers please!");
@@ -135,8 +141,15 @@
                 else if(!Number.isInteger(amount))
                     throw new Error("Only write integers please!");
 
-                amount = amount * rate;
-                document.getElementById("amount-result").innerHTML = "Amount in Crypto: " + amount + " " + getRate.map(item => item.crypto);
+                var audio = new Audio("../images/sounds/money_sound_short.mp3");
+                audio.play();
+
+
+                function showAmount(){
+                    amount = amount * rate;
+                    document.getElementById("amount-result").innerHTML = "Amount in Crypto: " + amount + " " + getRate.map(item => item.crypto);
+                }
+                setTimeout(showAmount, 4000);
             }
             catch(error){
                 document.getElementById("amount-result").innerHTML = error;
