@@ -10,7 +10,7 @@ signupButton.addEventListener("click", (e) => {
 
     if (password === confirm_password ) {
         alert("You have successfully signed up.");
-        window.location.href = "home.html";
+        window.location.href = "login.html";
     } else {
         signupErrorMsg.style.color = 'red';
         signupErrorMsg.style.opacity = 1;
