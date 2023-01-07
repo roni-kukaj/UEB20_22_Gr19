@@ -18,6 +18,12 @@ header > .navbar{
   font-weight: bold;
   text-decoration: underline;
 }
+li>.dropdown-item{
+  color: white;
+}
+li>.dropdown-item:hover{
+  color:black;
+}
 
 /*
 .form{
