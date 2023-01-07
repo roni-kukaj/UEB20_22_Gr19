@@ -128,18 +128,16 @@
             try{
                 document.getElementById("amount-result").style.color = "black";
                 var amount = document.getElementById("amount-in-usd").value;
-                amount = Number.parseInt(amount);
+
                 var selectedCoin = document.getElementById("inputGroupSelect01").value;
                 let getRate = cryptoRates.filter(item => item.id == selectedCoin);
                 var rate = getRate.map(item => item.rate);
-
+                amount = Number.parseInt(amount);
 
                 if(isNaN(amount))
                     throw new Error("Write numbers please!");
                 else if(amount < 0)
                     throw new Error("Only positive numbers allowed!");
-                else if(!Number.isInteger(amount))
-                    throw new Error("Only write integers please!");
 
                 var audio = new Audio("../images/sounds/money_sound_short.mp3");
                 audio.play();
@@ -154,7 +152,6 @@
             catch(error){
                 document.getElementById("amount-result").innerHTML = error;
                 document.getElementById("amount-result").style.color = "red";
-
             }
 
         }
