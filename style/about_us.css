@@ -49,4 +49,9 @@ header > .navbar{
     margin-top: 275px;
     font-family: Calibri;
 }
-
+li>.dropdown-item{
+    color: white;
+  }
+  li>.dropdown-item:hover{
+    color:black;
+  }
