@@ -4,33 +4,37 @@
 }
 .emp_div{
     position: relative;
+    height: auto;
 }
 .text_box_div{
     background-color: rgb(252, 252, 252);
     width: 300px;
-    height: 110px;
+    height: 130px;
     position: absolute;
     margin-top: -350px;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 19px;
     font-family: Calibri;
     color: #243945;
     padding-top: 10px;
 }
 .emp_div2{
-    background-color: #243945;
+    background-color: #E6C37A;
     margin-top: 5px;
+    border-radius: 20px;
+    padding: 1%;
 }
 .paragraph1{
-    color: #fff;
+    color: #000;
     font-size: 20px;
     padding-left: 20px;
 }
 .paragraph2{
-    color: #fff;
+    color: #000;
     padding-left: 20px;
     padding-top: 30px;
     display: inline-block;
+    font-style: italic;
 }
 .application{
     display: inline-block;
