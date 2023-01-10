@@ -1,0 +1,19 @@
+.help_container{
+    height: 300px;
+    background-image: linear-gradient(white 5%, #243945 95%, white 10%);
+    text-align: center;
+    margin-top: 140px;
+}
+
+.first_box,
+.second_box,
+.third_box{
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 210px;
+    height: 230px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;  
+}
+
