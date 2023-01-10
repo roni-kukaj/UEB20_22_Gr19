@@ -1,0 +1,23 @@
+.help_container{
+    height: 300px;
+    background-image: linear-gradient(white 5%, #243945 95%, white 10%);
+    text-align: center;
+    margin-top: 140px;
+}
+
+.FAQ_header{
+    color: orange;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.FAQ_container{
+    background-color: #dfe2e3;
+    height: auto;
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.FAQ_question{
+    font-weight: 600;
+}
