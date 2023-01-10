@@ -13,10 +13,9 @@
 
 .FAQ_container{
     background-color: #dfe2e3;
-    height: auto;
-    width: 600px;
-    margin-left: 70px;
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .FAQ_question{
     font-weight: 600;
