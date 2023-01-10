@@ -5,15 +5,19 @@
     margin-top: 140px;
 }
 
-.first_box,
-.second_box,
-.third_box{
-    margin-top: 50px;
-    margin-left: 140px;
-    width: 210px;
-    height: 230px;
-    display: inline-block;
-    background-color: white;
-    border: 1px solid black;  
+.FAQ_header{
+    color: orange;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
+.FAQ_container{
+    background-color: #dfe2e3;
+    height: auto;
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.FAQ_question{
+    font-weight: 600;
+}
