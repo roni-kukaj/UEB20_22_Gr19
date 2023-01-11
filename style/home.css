@@ -38,7 +38,7 @@ li>.dropdown-item:hover{
     vertical-align: middle;
     display: table-row;
     font-size: 3vh;
-    font-family: Calibri;
+    font-family: 'HomepageFont';
 }
 #statistics-of-bank{
     background-color: #E6C37A;
@@ -69,9 +69,16 @@ ul li>u{
     padding-top: 20px;
 }
 .copyright-section{
+    box-sizing: border-box;
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px 0;
     padding-top: 18px;
+}
+@font-face {
+    font-family: 'HomepageFont';
+    src:  url('myfont.woff2') format('woff2'),
+            url('myfont.woff') format('woff');
+    font-size: 3vh;
 }

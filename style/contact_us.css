@@ -156,3 +156,12 @@ navbar a:hover {
       padding: 10px 0;
       padding-top: 18px;
   }
+
+  #p1{
+    text-shadow: 5px 5px 5px #243945;
+    background-image: radial-gradient(#243945, white, blue);
+  }
+
+  .input-box {
+    overflow-wrap: break-word; 
+  }

@@ -5,7 +5,8 @@ body{
     width: 700px;
     height: 400px;
     margin-right: 20px;
-    border-radius: 15px 50px 30px 5px;
+    /* border-radius: 15px 50px 30px 5px; */
+    border-radius: 20px;
     box-shadow: 10px 10px 5px black;
 }
 .paragraph1{
@@ -18,7 +19,8 @@ body{
     width: 700px;
     height: 400px;
     margin-right: 20px;
-    border-radius: 50px 15px 5px 30px;
+    /* border-radius: 50px 15px 5px 30px; */
+    border-radius: 20px;
     box-shadow: -10px 10px 5px black;
 }
 .paragraph2{
@@ -30,7 +32,8 @@ body{
 }
 .image3{
     margin-right: 20px;
-    border-radius: 15px 50px 30px 5px;
+    /* border-radius: 15px 50px 30px 5px; */
+    border-radius: 20px;
     box-shadow: 10px 10px 5px black;
 }
 .paragraph3{
