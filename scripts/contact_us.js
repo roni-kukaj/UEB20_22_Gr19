@@ -9,17 +9,3 @@ console.log(social_media[2]);
 console.log(social_media[3]);
 
 
-switch social_media{
-  case 0:
-    console.log("Facebook");
-    break;
-  case 1:
-      console.log("Twitter");
-      break;
-  case 2:
-        console.log("GooglePlus");
-        break;
-        case 3:
-          console.log("LinkedIn");
-          break;
-}
