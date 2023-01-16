@@ -9,9 +9,3 @@ console.log(social_media[2]);
 console.log(social_media[3]);
 
 
-let draggableObject = document.getElementById("draggableObject");
-let dropTarget = document.getElementById("dropTarget");
-let resetButton = document.getElementById("resetButton");
-
-draggableObject.addEventListener("dragstart", function(event) {
-  event.dataTransfer.setData
