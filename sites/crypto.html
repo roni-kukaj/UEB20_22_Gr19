@@ -158,6 +158,42 @@
             }
 
         }
+        let accountBalance = 500;
+        let withdrawalAmount = 200;
+        let transactionType = "withdrawal";
+
+     if (withdrawalAmount <= accountBalance) {
+        accountBalance -= withdrawalAmount;
+        console.log("Withdrawal successful. New account balance: " + accountBalance);
+     }
+     else {
+        console.log("Insufficient funds. Withdrawal denied.");
+    }
+    switch (transactionType) {
+  case "withdrawal":
+    if (transactionAmount <= accountBalance) {
+      accountBalance -= transactionAmount;
+      console.log("Withdrawal successful. New account balance: " + accountBalance);
+    } else {
+      console.log("Insufficient funds. Withdrawal denied.");
+    }
+    break;
+  case "deposit":
+    accountBalance += transactionAmount;
+    console.log("Deposit successful. New account balance: " + accountBalance);
+    break;
+  case "transfer":
+    let recipientAccount = "123456";
+    if (transactionAmount <= accountBalance) {
+      accountBalance -= transactionAmount;
+      console.log("Transfer successful. New account balance: " + accountBalance);
+    } else {
+      console.log("Insufficient funds. Transfer denied.");
+    }
+    break;
+  default:
+    console.log("Invalid transaction type.");
+}
     </script>
     </body>
 </html>
