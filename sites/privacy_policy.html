@@ -5,7 +5,7 @@
     <title>Privacy Policy</title>
     <link rel="stylesheet" href="privacy_policy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
     <header>
@@ -35,7 +35,6 @@
                                    <li><a class="dropdown-item" href="basicinfo.html">Basic Informations</a></li>
                                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
                                    <li><a class="dropdown-item" href="employment.html">Employment</a></li>
-                                   <li><a  class="dropdown-item" href="privacy_policy.html">Privacy Policy</a></li>
                                </ul>
                            </li>
                            <li class="nav-item">
@@ -62,7 +61,7 @@
                </div>
            </nav>
        </header>
-       <div class="privacy_policy">
+       <div class="privacy_policy container">
 
 
         <h1>Privacy Policy</h1>
@@ -107,20 +106,20 @@
       <p>@Copyright 2022 - Grupi 22</p>
   </footer>
   <script>
-  function person(fname, lname, cookies) {
-this.firstname = fname;
-this.lastname = lname;
-this.cook = cookies
-};
+    function person(fname, lname, cookies) {
+        this.firstname = fname;
+        this.lastname = lname;
+        this.cook = cookies
+    };
 
-const firstPerson = new person("Visar", "Gjema", "yes");
-const seconfPerson = new person("Filan", "Fisteku", "no");
-const thirdPerson = new person("Arlind", "Shabani", "yes");
+    const firstPerson = new person("Visar", "Gjema", "yes");
+    const seconfPerson = new person("Filan", "Fisteku", "no");
+    const thirdPerson = new person("Arlind", "Shabani", "yes");
 
 
-console.log(firstPerson.replace("yes", "no"));
-let text_match = thirdPerson.match("Arlind");
-console.log(text_match);
+    console.log(firstPerson.replace("yes", "no"));
+    let text_match = thirdPerson.match("Arlind");
+    console.log(text_match);
   </script>
 </body>
 </html>
