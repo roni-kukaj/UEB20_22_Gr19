@@ -5,4 +5,12 @@ header {
      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
      height: 50px
   }
-  
+
+  .copyright-section{
+      box-sizing: border-box;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      padding-top: 18px;
+  }

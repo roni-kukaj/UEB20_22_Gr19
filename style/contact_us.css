@@ -92,7 +92,8 @@ navbar a:hover {
 
   .footer-content h3{
     font-size: 1.8rem;
-    font-weight: 400;text-transform: capitalize;
+    font-weight: 400;
+    text-transform: capitalize;
     line-height: 3rem;
   }
 
@@ -150,6 +151,7 @@ navbar a:hover {
     margin-bottom: 25px;
   }
   .copyright-section{
+      box-sizing: border-box;
       background-color: black;
       color: white;
       text-align: center;
@@ -157,11 +159,12 @@ navbar a:hover {
       padding-top: 18px;
   }
 
+
   #p1{
     text-shadow: 5px 5px 5px #243945;
     background-image: radial-gradient(#243945, white, blue);
   }
 
   .input-box {
-    overflow-wrap: break-word; 
+    overflow-wrap: break-word;
   }
