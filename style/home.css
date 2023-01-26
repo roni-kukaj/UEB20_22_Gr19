@@ -56,7 +56,7 @@ li>.dropdown-item:hover{
     color: white;
     font-weight: bold;
 }
-ul li>u{
+ul li > span{
     color: #E6C37A;
 }
 #locations{
